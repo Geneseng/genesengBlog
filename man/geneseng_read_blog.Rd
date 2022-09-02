@@ -4,10 +4,10 @@
 \alias{geneseng_read_blog}
 \title{Knit a Geneseng article}
 \usage{
-geneseng_read_blog(path)
+geneseng_read_blog(name)
 }
 \arguments{
-\item{path}{path of the file}
+\item{name}{name of the file, see `genesengBlog::available_article()`.}
 }
 \description{
 Knit a Geneseng article

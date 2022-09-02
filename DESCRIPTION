@@ -9,7 +9,7 @@ Authors@R:
            email = "yahiaoui-martinez.alex@geneseng.com")
 Maintainer: Alex Yahiaoui Martinez <yahiaoui-martinez.alex@geneseng.com>
 Description: Make a bridge between our GitHub repository and our WP website.
-License: MIT
+License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: rmarkdown, knitr

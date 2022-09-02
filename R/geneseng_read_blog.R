@@ -4,14 +4,16 @@
 #' 
 #' @import knitr
 #' 
-#' @examples 
-#' 
 #'
 #' @export
 geneseng_read_blog <- function(name){
   
   path <- system.file(name, package = "genesengBlog")
-  #rmarkdown::render(file.path(path, "README.Rmd"))
-  #knit(file.path(path, "README.Rmd"))
+  
+  knit(
+    input = file.path(path, "README.Rmd"), 
+    output = file.path(path, paste0(name, ".html"))
+  )
   
 }
+
