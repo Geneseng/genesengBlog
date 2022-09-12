@@ -18,8 +18,8 @@ Source from Unsplash
 ## INTRODUCTION
 
 <p color="#64677F">
-At Geneseng, we are used to creating new features to improve our AI
-driven platform. To deploy them quickly in the cloud, we use a
+At Geneseng, we are used to creating new features to improve our
+AI-driven platform. To deploy them quickly in the cloud, we use a
 technology called Docker.
 </p>
 <p color="#64677F">
@@ -60,6 +60,11 @@ file called Dockerfile.
 
 ### CENTRAL DOGMA
 
+<a href=#><img src='https://geneseng.com/wp-content/uploads/2022/08/pipeline_docker.png'></a>
+
+<p align="center" color="#64677F">
+Docker pipeline
+</p>
 <p color="#64677F">
 The *Dockerfile* works like a cooking recipe. It gathers all necessary
 instructions to build the desirable program. Docker builds a Docker

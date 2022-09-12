@@ -25,7 +25,7 @@ knitr::opts_chunk$set(
 
 ## INTRODUCTION
 
-<p color="#64677F"> At Geneseng, we are used to creating new features to improve our AI driven platform. To deploy them quickly in the cloud, we use a technology called Docker. </p>
+<p color="#64677F"> At Geneseng, we are used to creating new features to improve our AI-driven platform. To deploy them quickly in the cloud, we use a technology called Docker. </p>
 
 <p color="#64677F"> Docker is a “container based platform” running applications in container environment. With a simplest architecture, Docker provides a modern, faster, flexible and reproducible way to deploy app or ML models in any infrastructure such as computer or cloud server. </p>
 
@@ -45,6 +45,10 @@ knitr::opts_chunk$set(
 <p color="#64677F"> “Container based platform” like Docker embeds only necessary programs to deliver app in a container. Container embed fewer resources than VM by emulating only the Operating System (OS: the Linux kernel). That why, containers allow *FASTER* and *PORTABLE* deployment. Besides to make *REPRODUCIBLE* deployment, all instructions are written in a simple text file called Dockerfile. </p>
 
 ### CENTRAL DOGMA
+
+<a href=#><img src='https://geneseng.com/wp-content/uploads/2022/08/pipeline_docker.png'></a>
+
+<p align="center" color="#64677F"> Docker pipeline </p>
 
 <p color="#64677F"> The *Dockerfile* works like a cooking recipe. It gathers all necessary instructions to build the desirable program. Docker builds a Docker image automatically by reading the instructions from the Dockerfile. </p>
 
