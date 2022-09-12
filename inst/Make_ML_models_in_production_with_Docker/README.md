@@ -81,9 +81,6 @@ A *Docker container* is a Docker image instance running in a Docker
 container.
 </p>
 <p color="#64677F">
-All information can be retrieved at <https://docs.docker.com/>.
-</p>
-<p color="#64677F">
 An example of deployment can be found in our
 <a href= "https://github.com/Geneseng/genesengBlog/inst/Make_ML_models_in_production_with_Docker/Supp">
 GitHub repository </a>.

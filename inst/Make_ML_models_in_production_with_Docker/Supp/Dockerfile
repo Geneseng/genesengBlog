@@ -11,11 +11,12 @@ RUN apt-get update && apt-get install -y \
     xtail
 
 # Install R packages
-RUN R -q -e 'install.packages(c("shiny", "randomForest"))'
+RUN R -q -e 'install.packages(c("shiny", "randomForest", "data.table"))'
 
 # Import classifier and app
 COPY classifier.rds classifier.rds
 COPY app.R app.R
+COPY breast_cancer_wisconsin.csv breast_cancer_wisconsin.csv
 
 EXPOSE 3838
 
