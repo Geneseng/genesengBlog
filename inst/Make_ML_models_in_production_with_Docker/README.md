@@ -46,16 +46,15 @@ allocation benefits but work differently.
 Virtual Machine (VM) is a virtual computer that works exactly like a
 physical computer. Hardware components (RAM, hard disk, CPU, pilots …)
 are emulated by a software called a hypervisor. To run, a portion of the
-host computer’s resources must be allocated to the VM. Using a VM is
-like running a computer inside a computer.
+host computer’s resources must be allocated to the VM.
 </p>
 <p color="#64677F">
 “Container based platform” like Docker embeds only necessary programs to
-deliver app in a container. Container embed fewer resources than VM by
+deliver app in a container. Containers embed fewer resources than VM by
 emulating only the Operating System (OS: the Linux kernel). That why,
-containers allow *FASTER* and *PORTABLE* deployment. Besides to make
-*REPRODUCIBLE* deployment, all instructions are written in a simple text
-file called Dockerfile.
+containers allow <b>FASTER</b> and <b>PORTABLE</b> deployment. Besides
+to make <b>REPRODUCIBLE</b> deployment, all instructions are written in
+a simple text file called Dockerfile.
 </p>
 
 ### CENTRAL DOGMA
@@ -66,18 +65,19 @@ file called Dockerfile.
 Docker pipeline
 </p>
 <p color="#64677F">
-The *Dockerfile* works like a cooking recipe. It gathers all necessary
-instructions to build the desirable program. Docker builds a Docker
-image automatically by reading the instructions from the Dockerfile.
+The <b>Dockerfile</b> works like a cooking recipe. It gathers all
+necessary instructions to build the desirable program. Docker builds a
+Docker image automatically by reading the instructions from the
+Dockerfile.
 </p>
 <p color="#64677F">
-A *Docker image* is a read-only template used to create the Docker
+A <b>Docker image</b> is a read-only template used to create the Docker
 container. It is composed of several layers packaging all the
 dependencies, libraries, and code for an operational container
 environment.
 </p>
 <p color="#64677F">
-A *Docker container* is a Docker image instance running in a Docker
+A <b>Docker container</b> is a Docker image instance running in a Docker
 container.
 </p>
 <p color="#64677F">
@@ -95,7 +95,7 @@ resources to make faster, flexible, portable and reproducible deployment
 than Virtual Machines.
 </p>
 <p color="#64677F">
-Nowadays, Docker is become the corner stone of many IT pratices like
+Nowadays, Docker is become the cornerstone of many IT pratices like
 <a href = "https://geneseng.com/introduction_to_devops_methodology/">
 devOps </a> or MLOps allowing continuous integration and deployment. An
 ecosystem has emerged around Docker and composed of numerous tools
